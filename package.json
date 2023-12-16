@@ -1,0 +1,23 @@
+{
+  "name": "kromosynth-render-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ssc build -r -o --test=./test/index.js --headless",
+    "init-project": "ssc init",
+    "start": "ssc build -r -o",
+    "watch": "ssc build -r -o --watch",
+    "build": "ssc build -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.8"
+  },
+  "type": "module",
+  "dependencies": {
+    "@socketsupply/socket-node": "^0.5.0"
+  }
+}
